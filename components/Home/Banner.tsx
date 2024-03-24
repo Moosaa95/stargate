@@ -6,7 +6,7 @@ import {motion} from 'framer-motion'
 import fadeIn from "@/variants";
 const Banner = () => {
     return (
-        <section className="mt-[100px]  px-4 lg:px-14 max-w-screen-2xl mx-auto min-h-[90vh] h-[70vh] relative">
+        <section className="mt-[100px]   mx-auto min-h-[90vh] h-[70vh] relative">
             <Carousel className="w-full h-full mx-auto relative">
                 <div className="h-full relative ">
                     <Image src="/assets/images/stargate1.jpg" alt="" layout="fill" objectFit="cover" />

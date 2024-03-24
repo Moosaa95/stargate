@@ -7,12 +7,15 @@ interface ItemProps {
     itemTitleTwo: string;
     Title: string;
     itemDescriptionOne: string;
-    itemDescriptionTwo: string
+    itemDescriptionTwo: string;
+    imageOne: string;
+    imageTwo: string;
+    link: string;
 
 
 }
 
-const Faculty = ({itemTitleOne, itemTitleTwo, itemDescriptionOne, itemDescriptionTwo, Title}:ItemProps) => {
+const Faculty = ({itemTitleOne, itemTitleTwo, itemDescriptionOne, itemDescriptionTwo, Title, imageOne, imageTwo, link}:ItemProps) => {
   return (
     <section className="container mx-auto py-24 px-6 min-h-screen">
         <h2 className="text-2xl text-center font-bold uppercase mb-5 sm:text-4xl md:text-3xl text-gray-90">{Title}</h2>
@@ -27,7 +30,7 @@ const Faculty = ({itemTitleOne, itemTitleTwo, itemDescriptionOne, itemDescriptio
                 <button className="py-3 px-4 bg-gray-90 rounded-lg text-white text-sm font-bold">Checkout</button>
             </div>
             <div className="p-4 md:w-3/4 sm:row-start-1">
-                <Image src="/assets/images/stargate-sport.jpg" width={300} height={200} alt="sport" />
+                <Image src={imageOne} width={300} height={200} alt="sport" />
             </div>
             <div className="pl-5">
                 <div className="font-bold sm:text-[1.875rem] text-[1.5rem] mb-5">
@@ -39,7 +42,7 @@ const Faculty = ({itemTitleOne, itemTitleTwo, itemDescriptionOne, itemDescriptio
                 <button className="py-3 px-4 bg-gray-90 rounded-lg text-white text-sm font-bold">Checkout</button>
             </div>
             <div className="p-4 md:w-3/4">
-                <Image src="/assets/images/stargate2.jpg" width={300} height={200} alt="sport" />
+                <Image src={imageTwo} width={300} height={200} alt="sport" />
             </div>
         </div>
       

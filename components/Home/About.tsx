@@ -5,45 +5,6 @@ import {motion} from "framer-motion"
 import fadeIn from '@/variants';
 const AboutUs = () => {
   return (
-    // <section className="my-12 mx-auto px-4 lg:px-0 flex flex-col lg:flex-row items-center justify-between w-full max-w-7xl">
-    //   {/* About Left */}
-    //   <div className="w-full lg:w-1/2 mb-8 lg:mb-0">
-    //     <Image
-    //       src="/assets/images/stargate10.jpg"
-    //       alt="Stargate Academy Building"
-    //       width={400}
-    //       height={300}
-    //       objectFit="cover"
-    //       className="rounded-lg"
-    //     />
-    //   </div>
-
-    //   {/* About Right */}
-    //   <motion.div
-    //       variants={fadeIn("up", 0.3)}
-    //       initial="hidden"
-    //       whileInView={"show"}
-    //       viewport={{once:false, amount:0.7}}
-    //         className="w-full lg:w-1/2 lg:pl-8">
-    //     <h2 className="text-3xl lg:text-4xl font-bold text-gray-90 mb-4">
-    //       About Stargate Academy
-    //     </h2>
-    //     <p className="text-lg lg:text-xl text-gray-700 mb-6">
-    //       Stargate Academy is a beacon of academic excellence committed to
-    //       nurturing young minds and fostering a culture of lifelong learning and
-    //       personal growth.
-    //     </p>
-        // <p className="text-lg lg:text-xl text-gray-700 mb-6">
-        //   Founded in 2008, Stargate Academy has a rich history of providing a
-        //   comprehensive education that blends rigorous academic standards with
-        //   spiritual and moral development, preparing students not just for exams
-        //   but for life.
-        // </p>
-    //     <Link href="/about-us">
-    //       <p className="text-lg lg:text-xl text-blue-600 font-semibold hover:underline">Learn More</p>
-    //     </Link>
-    //     </motion.div> 
-    // </section>
     <section className='w-full bg-white py-16 px-4'>
         <div className="max-w-[1240px] gap-10 mx-auto grid md:grid-cols-2">
             <Image src="/assets/images/stargate4.jpg" alt='stargate building' width={400} height={300} className='w-[100%] mx-auto my-4'/>

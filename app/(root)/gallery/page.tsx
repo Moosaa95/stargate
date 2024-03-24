@@ -5,15 +5,15 @@ import Image from 'next/image';
 const Gallery = () => {
   // Sample image URLs
   const imageUrls = [
-    '/images/gallery/image1.jpg',
-    '/images/gallery/image2.jpg',
-    '/images/gallery/image3.jpg',
-    '/images/gallery/image4.jpg',
-    '/images/gallery/image5.jpg',
-    '/images/gallery/image6.jpg',
-    '/images/gallery/image7.jpg',
-    '/images/gallery/image8.jpg',
-    '/images/gallery/image9.jpg',
+    '/assets/images/stargate1.jpg',
+    '/assets/images/stargate2.jpg',
+    '/assets/images/stargate3.jpg',
+    '/assets/images/stargate4.jpg',
+    '/assets/images/stargate6.jpg',
+    '/assets/images/stargate5.jpg',
+    '/assets/images/stargate7.jpg',
+    '/assets/images/stargate8.jpg',
+    '/assets/images/stargate9.jpg',
   ];
 
   return (

@@ -6,8 +6,8 @@ export const NAV_LINKS = [
     { href: '/admission', key: 'admission', label: 'Admission' },
     { href: '/gallery', key: 'gallery', label: 'Gallery' },
     // { href: '/event', key: 'event', label: 'Event' },
-    { href: '/blog', key: 'blog', label: 'Blog' },
-    { href: '/about-us', key: 'about_us', label: 'About Us' },
+    // { href: '/blog', key: 'blog', label: 'Blog' },
+    { href: '/about-us', key: 'about_us', label: 'About' },
     { href: '/contact-us', key: 'contact_us', label: 'Contact Us' },
   ];
 
