@@ -1,4 +1,6 @@
-import Footer from "@/components/common/Footer";
+
+import FooterComponent from "@/components/common/Footer";
+// import Footer from "@/components/common/Footer";
 import Navbar from "@/components/common/Navbar";
 import React from "react";
 
@@ -12,7 +14,7 @@ export default async function ({
             <main className="relative overflow-hidden bg-gradient-to-b from-white to-gray-100">
             {children}
             </main>
-            {/* <Footer /> */}
+            <FooterComponent />
         </div>
     )
 }

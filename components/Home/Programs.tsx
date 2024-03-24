@@ -103,7 +103,6 @@ import Link from "next/link";
 interface Program {
   id: number;
   title: string;
-  backgroundUrl: string;
   iconUrl: string;
   light: boolean;
   imageUrl: string;
@@ -166,7 +165,7 @@ const Program: React.FC<ProgramCardsProps> = ({ programs })  => {
           whileInView={"show"}
           viewport={{once:false, amount:0.7}}>
           <Link href={program.url} key={program.id} className="relative group bg-white rounded-md shadow-md overflow-hidden">
-            <Image src={program.imageUrl} width={100} height={100} className="w-full rounded-md block" alt={program.title} />
+            <Image src={program.imageUrl} width={400} height={300} className="w-full rounded-md block" alt={program.title} />
             {/* ca[tiom] */}
             <div className="absolute pt-[70%] flex items-center justify-center flex-col inset-0 bg-gray-90 bg-opacity-30 rounded-md opacity-0  group-hover:opacity-100 group-hover:pt-0 transition-all duration-500">
               <Image src={program.imageUrl} width={60} height={60} alt="" className="w-16 h-16 mb-2 object-cover rounded-full" />
