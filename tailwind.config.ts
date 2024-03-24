@@ -41,6 +41,15 @@ module.exports = {
         pattern: "url('/pattern.png')",
         'pattern-2': "url('/pattern-bg.png')",
       },
+      animation: {
+        slide: "slide 25s linear infinite"
+      },
+      keyframes: {
+        slide: {
+          "0%,100%" : {transform: "translateX(5%)"},
+          "50%" : {transform: "translateX(-120%)"}
+        }
+      },
       screens: {
         xs: '400px',
         '3xl': '1680px',

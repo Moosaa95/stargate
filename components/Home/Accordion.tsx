@@ -17,7 +17,7 @@ const Accordion = ({id, question, answer}:AccordionProps) => {
   return (
     <div className="pb-8">
       <div onClick={() => handleClick(id)} className="cursor-pointer flex flex-row items-center gap-5">
-      <div className="sm:text-xl text-base font-bold ">
+      <div className="sm:text-xl text-base font-[500] ">
         {question}
       </div>
       <BsChevronDown className={`${id === activeIndex ? "rotate-180" : "rotate-0"} cursor-pointer transition-all duration-300`} size={20} />

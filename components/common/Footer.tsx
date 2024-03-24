@@ -219,77 +219,142 @@
 
 // // export default Footer
 
-import { Footer } from 'flowbite-react';
+// import { Footer } from 'flowbite-react';
+"use client"
 import Image from 'next/image';
-import { BsFacebook, BsInstagram, BsTwitter } from 'react-icons/bs';
+import { BsFacebook, BsInstagram, BsLinkedin, BsTwitter } from 'react-icons/bs';
+import {motion} from "framer-motion"
+import Link from 'next/link';
 
-function FooterComponent() {
-  const currentYear = new Date().getFullYear();
+// function FooterComponent() {
+//   const currentYear = new Date().getFullYear();
 
+//   return (
+//     <Footer bgDark>
+//       <div className="w-full">
+//         <div className="grid w-full grid-cols-2 md:grid-cols-4 gap-8 px-6 py-8 md:py-12">
+//           {/* Stargate Academy Links */}
+//           <div className='flex flex-row gap-2'>
+//             <div>
+//             <Image src="/assets/images/icon.jpg" alt="Logo Image" width={74} height={29} className="inline-bloock items-center"/>
+//             </div>
+//             <div>
+//             <Footer.Title title="Stargate Academy" className="text-white text-2xl" />
+//             {/* <p className="text-sm text-gray-200">Where stars are born</p> */}
+//             </div>
+//           </div>
+//           <div>
+//             <Footer.Title title="Pages" className="text-white" />
+//             <Footer.LinkGroup col>
+//               <Footer.Link href="#" className="text-gray-200">About Us</Footer.Link>
+//               <Footer.Link href="#" className="text-gray-200">Programs</Footer.Link>
+//               <Footer.Link href="#" className="text-gray-200">Admissions</Footer.Link>
+//               <Footer.Link href="#" className="text-gray-200">Blog</Footer.Link>
+//               <Footer.Link href="#" className="text-gray-200">Contact</Footer.Link>
+//             </Footer.LinkGroup>
+//           </div>
+
+//           {/* Help Center Links */}
+//           <div>
+//             <Footer.Title title="Help Center" className="text-gray-200" />
+//             <Footer.LinkGroup col>
+//               <Footer.Link href="#" className="text-gray-200">Twitter</Footer.Link>
+//               <Footer.Link href="#" className="text-gray-200">Facebook</Footer.Link>
+//               <Footer.Link href="#" className="text-gray-200">Contact Us</Footer.Link>
+//             </Footer.LinkGroup>
+//           </div>
+
+//           {/* Legal Links */}
+//           <div>
+//             <Footer.Title title="Legal" className="text-gray-200" />
+//             <Footer.LinkGroup col>
+//               <Footer.Link href="#" className="text-gray-200">Privacy Policy</Footer.Link>
+//               <Footer.Link href="#" className="text-gray-200">Licensing</Footer.Link>
+//               <Footer.Link href="#" className="text-gray-200">Terms & Conditions</Footer.Link>
+//             </Footer.LinkGroup>
+//           </div>
+//         </div>
+
+//         {/* Bottom Footer */}
+//         <div className="w-full bg-gray-700 px-4 py-6 flex flex-col items-center justify-center sm:flex-row sm:justify-between">
+//           <Footer.Copyright
+//             href="#"
+//             by="Stargate Academy"
+//             year={currentYear}
+//             className="text-gray-200"
+//           />
+//           <div className="mt-4 flex space-x-6">
+//             {/* Social Media Icons */}
+//             <Footer.Icon href="#" icon={BsFacebook} className="text-gray-200 hover:text-blue-500" />
+//             <Footer.Icon href="#" icon={BsInstagram} className="text-gray-200 hover:text-blue-500" />
+//             <Footer.Icon href="#" icon={BsTwitter} className="text-gray-200 hover:text-blue-500" />
+//           </div>
+//         </div>
+//       </div>
+//     </Footer>
+//   );
+// }
+
+// export default FooterComponent;
+
+export default function Footer() {
   return (
-    <Footer bgDark>
-      <div className="w-full">
-        <div className="grid w-full grid-cols-2 md:grid-cols-4 gap-8 px-6 py-8 md:py-12">
-          {/* Stargate Academy Links */}
-          <div className='flex flex-row gap-2'>
-            <div>
+    <motion.footer className='bg-gray-90 p-10'
+      initial={{height: 0}}
+      whileInView={{height: 'auto'}}
+      transition={{duration: 1}}
+    >
+      <div className='grid md:grid-cols-4 sm:grid-cols-3 xs:grid-cols-2 grid-cols-1 place-items-start gap-8 text-white'>
+        <div>
+          <div className='mb-6 flex flex-row items-center gap-2'>
             <Image src="/assets/images/icon.jpg" alt="Logo Image" width={74} height={29} className="inline-bloock items-center"/>
-            </div>
-            <div>
-            <Footer.Title title="Stargate Academy" className="text-white text-2xl" />
-            {/* <p className="text-sm text-gray-200">Where stars are born</p> */}
-            </div>
+            <h3 className='font-bold  text-[1.2rem]'>Stargate Academy</h3>
           </div>
-          <div>
-            <Footer.Title title="Pages" className="text-white" />
-            <Footer.LinkGroup col>
-              <Footer.Link href="#" className="text-gray-200">About Us</Footer.Link>
-              <Footer.Link href="#" className="text-gray-200">Programs</Footer.Link>
-              <Footer.Link href="#" className="text-gray-200">Admissions</Footer.Link>
-              <Footer.Link href="#" className="text-gray-200">Blog</Footer.Link>
-              <Footer.Link href="#" className="text-gray-200">Contact</Footer.Link>
-            </Footer.LinkGroup>
+          <p className="text-sm leading-7">
+          Welcome Stargate International Academy
+Where Stars are Born and Gates Open to the Future.
+          </p>
+        </div>
+        <div>
+          <div className='font-bold mb-6'>
+           <h3>Pages </h3>
           </div>
+          <div className='flex flex-col gap-6'>
+          <Link href="" className='text-sm hover:underline'>Home</Link>
+          <Link href="" className='text-sm hover:underline'>Blog</Link>
+          <Link href="" className='text-sm hover:underline'>Programs</Link>
+          <Link href="" className='text-sm hover:underline'>Event</Link>
 
-          {/* Help Center Links */}
-          <div>
-            <Footer.Title title="Help Center" className="text-gray-200" />
-            <Footer.LinkGroup col>
-              <Footer.Link href="#" className="text-gray-200">Twitter</Footer.Link>
-              <Footer.Link href="#" className="text-gray-200">Facebook</Footer.Link>
-              <Footer.Link href="#" className="text-gray-200">Contact Us</Footer.Link>
-            </Footer.LinkGroup>
-          </div>
-
-          {/* Legal Links */}
-          <div>
-            <Footer.Title title="Legal" className="text-gray-200" />
-            <Footer.LinkGroup col>
-              <Footer.Link href="#" className="text-gray-200">Privacy Policy</Footer.Link>
-              <Footer.Link href="#" className="text-gray-200">Licensing</Footer.Link>
-              <Footer.Link href="#" className="text-gray-200">Terms & Conditions</Footer.Link>
-            </Footer.LinkGroup>
           </div>
         </div>
-
-        {/* Bottom Footer */}
-        <div className="w-full bg-gray-700 px-4 py-6 flex flex-col items-center justify-center sm:flex-row sm:justify-between">
-          <Footer.Copyright
-            href="#"
-            by="Stargate Academy"
-            year={currentYear}
-            className="text-gray-200"
-          />
-          <div className="mt-4 flex space-x-6">
-            {/* Social Media Icons */}
-            <Footer.Icon href="#" icon={BsFacebook} className="text-gray-200 hover:text-blue-500" />
-            <Footer.Icon href="#" icon={BsInstagram} className="text-gray-200 hover:text-blue-500" />
-            <Footer.Icon href="#" icon={BsTwitter} className="text-gray-200 hover:text-blue-500" />
+        <div>
+          <div className='font-bold mb-6'>
+            <h3>School</h3>
+          </div>
+          <div className="flex flex-col gap-6">
+            <Link className='text-sm hover:underline' href="">Careers</Link>
+            <Link className='text-sm hover:underline' href="">Tahfeez</Link>
+            <Link className='text-sm hover:underline' href="">Gallery</Link>
+          </div>
+        </div>
+        <div>
+          <div className="font-bold mb-6">Follow us</div>
+          <div className="text-sm mb-4">
+            <p>Email: <span>stargateacademy@gmail.com</span></p>
+          </div>
+          <div className="text-sm">
+            <p>Tel: <span>09090909090</span></p>
+          </div>
+          <div className="flex gap-4">
+            <Link className='hover:scale-110 text-xl' href=""><BsFacebook /></Link>
+            <Link className='hover:scale-110 text-xl' href=""><BsTwitter /></Link>
+            <Link className='hover:scale-110 text-xl' href=""><BsInstagram /></Link>
+            <Link className='hover:scale-110 text-xl' href=""><BsLinkedin /></Link>
           </div>
         </div>
       </div>
-    </Footer>
-  );
-}
+      
 
-export default FooterComponent;
+    </motion.footer>
+  )
+}

@@ -3,20 +3,22 @@ import Banner from "@/components/Home/Banner";
 import WhyChooseStargate from "@/components/Home/Choose.";
 import Faculty from "@/components/Home/Faculty";
 import Faq from "@/components/Home/Faq";
-import FeaturedContent from "@/components/Home/Feature";
 import FeatureSection from "@/components/Home/Features";
+import Gallery from "@/components/Home/Gallery";
 import Hero from "@/components/Home/Hero";
 import NewsLetter from "@/components/Home/NewsLetter";
 import Program from "@/components/Home/Programs";
 import AcademicProgramsSnippet from "@/components/Home/Programs";
 import Values from "@/components/Home/Values";
+import { FaBabyCarriage, FaSchool, FaUniversity, FaPrayingHands } from 'react-icons/fa';
+
 
 export default function Home() {
     const programs = [
         {
           id: 1,
           title: "Early Years: Crèche and Nursery",
-          iconUrl: "https://example.com/icon-1.png",
+          icon: <FaBabyCarriage size={50} className="rounded-full text-white w-16 h-16 mb-2" />,
           light: true,
           imageUrl: "/assets/images/stargate10.jpg",
           url: "/program"
@@ -24,7 +26,7 @@ export default function Home() {
         {
           id: 2,
           title: "Primary Academy: Building Blocks of Education",
-          iconUrl: "https://example.com/icon-2.png",
+          icon: <FaSchool size={50} className="rounded-full text-white w-16 h-16 mb-2" />,
           light: false,
           imageUrl: "/assets/images/stargate2.jpg",
           url: "/program"
@@ -32,7 +34,7 @@ export default function Home() {
         {
           id: 3,
           title: "Secondary Academy: Preparing for the Future",
-          iconUrl: "https://example.com/icon-2.png",
+          icon: <FaUniversity size={50} className="rounded-full text-white w-16 h-16 mb-2" />,
           light: false,
           imageUrl: "/assets/images/stargate6.jpg",
           url: "/program"
@@ -40,9 +42,37 @@ export default function Home() {
         {
           id: 3,
           title: "Tahfeez Program: Nurturing Spiritual Growth",
-          iconUrl: "https://example.com/icon-2.png",
+          icon: <FaPrayingHands size={50} className="rounded-full text-white w-16 h-16 mb-2" />,
           light: false,
           imageUrl: "/assets/images/stargate3.jpg",
+          url: "/program"
+        },
+         
+      ];
+
+      const Galleries = [
+        {
+          id: 1,
+          title: "Early Years: Crèche and Nursery",
+          image: "/assets/images/stargate10.jpg",
+          url: "/program"
+        },
+        {
+          id: 2,
+          title: "Primary Academy: Building Blocks of Education",
+          image: "/assets/images/stargate2.jpg",
+          url: "/program"
+        },
+        {
+          id: 3,
+          title: "Secondary Academy: Preparing for the Future",
+          image: "/assets/images/stargate6.jpg",
+          url: "/program"
+        },
+        {
+          id: 3,
+          title: "Tahfeez Program: Nurturing Spiritual Growth",
+          image: "/assets/images/stargate3.jpg",
           url: "/program"
         },
          
@@ -72,8 +102,8 @@ export default function Home() {
                 <Faculty {...visions} />
                 <WhyChooseStargate />
                 <Program programs={programs} />
-                <FeaturedContent />
                 <Faculty {...activities} />
+                <Gallery galleries={Galleries} />
                 <Faq />
                 <NewsLetter />
             

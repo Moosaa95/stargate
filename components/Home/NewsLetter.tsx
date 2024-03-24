@@ -9,6 +9,7 @@ const NewsLetter = () => {
                     News Letters
                 </h1>
                 <p>Sign up to our newsletter and stay up to date.</p>
+                <p>Stay updated with our latest achievements and upcoming events. From inter-Academy competitions to community service projects, Stargate students are always on the move, making a difference.</p>
             </div>
             <div className="my-4">
                 <div className="flex flex-col sm:flex-row items-center justify-between w-full">

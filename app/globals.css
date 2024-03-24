@@ -163,3 +163,9 @@ body {
 header {
   z-index: 100001 !important;
 }
+
+@layer base {
+  .animate-slide:hover {
+    animation-play-state: paused;
+  }
+}
