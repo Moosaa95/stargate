@@ -3,12 +3,9 @@ import Banner from "@/components/Home/Banner";
 import WhyChooseStargate from "@/components/Home/Choose.";
 import Faculty from "@/components/Home/Faculty";
 import Faq from "@/components/Home/Faq";
-import FeatureSection from "@/components/Home/Features";
 import Gallery from "@/components/Home/Gallery";
-import Hero from "@/components/Home/Hero";
 import NewsLetter from "@/components/Home/NewsLetter";
 import Program from "@/components/Home/Programs";
-import AcademicProgramsSnippet from "@/components/Home/Programs";
 import Values from "@/components/Home/Values";
 import { FaBabyCarriage, FaSchool, FaUniversity, FaPrayingHands } from 'react-icons/fa';
 
