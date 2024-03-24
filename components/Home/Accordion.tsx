@@ -36,7 +36,7 @@ const Accordion = ({id, question, answer}:AccordionProps) => {
             transition={{ duration: 0.3 }}
             className="overflow-hidden"
           >
-            <p className="text-sm md:text-base leading-7 text-gray-90">{answer}</p>
+            <p className="text-sm md:text-base leading-7 text-gray-900">{answer}</p>
           </motion.div>
         )}
       </AnimatePresence>

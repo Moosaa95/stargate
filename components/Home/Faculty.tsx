@@ -24,7 +24,7 @@ const Faculty = ({itemTitleOne, itemTitleTwo, itemDescriptionOne, itemDescriptio
                 <div className="font-bold sm:text-[1.875rem] text-[1.5rem] mb-5">
                  <span className="text-gray-90">{itemTitleOne}</span>
                 </div>
-                <p className="text-sm leading-7 text-gray mb-5">
+                <p className="text-lg leading-7 text-gray mb-5">
                     {itemDescriptionOne}
                 </p>
                 <button className="py-3 px-4 bg-gray-90 rounded-lg text-white text-sm font-bold">Checkout</button>
@@ -36,7 +36,7 @@ const Faculty = ({itemTitleOne, itemTitleTwo, itemDescriptionOne, itemDescriptio
                 <div className="font-bold sm:text-[1.875rem] text-[1.5rem] mb-5">
                 <span className="text-gray-90">{itemTitleTwo}</span>
                 </div>
-                <p className="text-sm leading-7 text-gray mb-5">
+                <p className="text-lg leading-7 text-gray mb-5">
                     {itemDescriptionTwo}
                 </p>
                 <button className="py-3 px-4 bg-gray-90 rounded-lg text-white text-sm font-bold">Checkout</button>
