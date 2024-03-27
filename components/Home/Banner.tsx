@@ -39,7 +39,7 @@ const Banner = () => {
                 whileInView={"show"}
                 viewport={{once:false, amount:0.7}}
                 className="absolute top-1/2 left-1/4 right-1/4 transform -translate-x-1/2 -translate-y-1/2 text-white text-center z-10">
-                <h1 className="text-4xl lg:text-6xl font-bold">Welcome Stargate International Academy</h1>
+                <h1 className="text-4xl lg:text-6xl font-bold">Welcome Stargate Excellence Academy</h1>
                 <p className="text-lg lg:text-xl mt-4">Where Stars are Born and Gates Open to the Future.</p>
             </motion.div>
         </section>
