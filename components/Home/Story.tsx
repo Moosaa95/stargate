@@ -23,11 +23,11 @@ export default function Story() {
                     </div>
                 </div>
                 <div className="md:w-1/2">
-                    <h2 className="text-3xl md:text-5xl font-bold text-gray-90 mb-5 leading-tight">Our Foundation: A Beacon of Learning and Integrity</h2>
-                    <p className="text-gray-700 text-lg mb-7">
+                    <h2 className="sm:text-[1.875rem] text-[1.5rem] font-bold text-gray-90 mb-5 leading-tight">Our Foundation: A Beacon of Learning and Integrity</h2>
+                    <p className="text-gray-700 text-lg leading-7 mb-7">
                         <span className="font-bold text-gray-90">A Humble Beginning:</span> Stargate Academy was founded with a clear mission—to offer a nurturing space where students could achieve both academic and spiritual excellence. Starting with two children aged 4 to 8, our family has expanded, embracing diversity and fostering a sense of unity and respect among students from various backgrounds.
                     </p>
-                    <p className="text-gray-700 text-lg mb-7">
+                    <p className="text-gray-700 text-lg leading-7 mb-7">
                     <span className="font-bold text-gray-90">Mission and Vision:</span> At the heart of Stargate Academy is our unwavering commitment to creating
                     leaders of tomorrow. Our mission is to blend academic rigor with spiritual depth, ensuring our
                     students excel not only in their studies but also as individuals of strong character, discipline, and integrity. We strive to be a community beneficial to all, rooted in the core tenets of Islamic culture
@@ -42,13 +42,13 @@ export default function Story() {
                 transition={{ delay: 0.2, duration: 0.5 }}
             >
                 <div className="md:w-1/2">
-                    <h2 className="text-3xl md:text-5xl font-bold text-gray-90 mb-5 leading-tight">Our Growth: A Story of Achievement and Community</h2>
-                    <p className="text-gray-700 text-lg mb-7">
+                    <h2 className="sm:text-[1.875rem] text-[1.5rem] font-bold text-gray-90 mb-5 leading-tight">Our Growth: A Story of Achievement and Community</h2>
+                    <p className="text-gray-700 text-lg leading-7 mb-7">
                         <span className="font-bold text-gray-90">Expanding Horizons:</span> From our initial two students, Stargate Academy has grown significantly, now
                         offering a comprehensive educational journey from crèche to senior secondary. Our curriculum, a
                         blend of Nigerian, British, and Islamic studies, is designed to prepare students for global challenges
                         while staying connected to their cultural and spiritual roots. </p>
-                    <p className="text-gray-700 text-lg mb-7">
+                    <p className="text-gray-700 text-lg leading-7 mb-7">
                         <span className="font-bold text-gray-90">A Community of Learners and Leaders:</span> 
                         Our students and alumni are our proudest achievements,
                         embodying the values and principles Stargate stands for. They are not just academically proficient

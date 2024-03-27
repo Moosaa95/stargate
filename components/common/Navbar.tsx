@@ -63,13 +63,13 @@ const Navbar = () => {
     <header className="w-full bg-white md:bg-transparent fixed top-0 left-0 right-0">
         <nav className={`py-4 lg:px-14 ${isSticky ? "sticky top-0 left-0 right-0 border-b bg-gray-90 duration-300" : ""}`}>
             <div className="flex justify-between items-center text-base gap-8">
-                <Link href="/" className="text-2xl font-semibold flex items-center space-x-0">
+                <Link href="/" className="text-3xl font-semibold flex items-center space-x-0">
                     <Image src="/assets/images/icon.jpg" alt="Logo Image" width={74} height={29} className="inline-bloock items-center"/>
                     <span className={`text-gray-90 ${isSticky ? "text-white": ""}`}>Stargate Academy</span>
                 </Link>
                 <ul className="md:flex space-x-12 hidden">
 
-                    {NAV_LINKS.map(({href, label, key}) => <Link   className={`text-[20px] text-gray-90 flex items-center cursor-pointer pb-1.5 transition-all hover:font-bold ${isSticky ? "text-white": ""}`} href={href} key={key}>{label}</Link>)}
+                    {NAV_LINKS.map(({href, label, key}) => <Link   className={`text-[16px] text-gray-90 flex items-center cursor-pointer pb-1.5 transition-all hover:font-bold ${isSticky ? "text-white": ""}`} href={href} key={key}>{label}</Link>)}
 
                 </ul>
                 <div className="md:hidden">

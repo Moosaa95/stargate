@@ -6,7 +6,7 @@ import Faq from "@/components/Home/Faq";
 import Gallery from "@/components/Home/Gallery";
 import NewsLetter from "@/components/Home/NewsLetter";
 import Program from "@/components/Home/Programs";
-import Values from "@/components/Home/Values";
+// import Values from "@/components/Home/Values";
 import { FaBabyCarriage, FaSchool, FaUniversity, FaPrayingHands } from 'react-icons/fa';
 
 
@@ -107,7 +107,7 @@ export default function Home() {
             
                 <Banner />
                 <About {...about}/>
-                <Values />
+                {/* <Values /> */}
                 <Faculty {...visions} />
                 <WhyChooseStargate />
                 <Program programs={programs} />
