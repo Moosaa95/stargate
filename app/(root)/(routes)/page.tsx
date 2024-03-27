@@ -1,4 +1,4 @@
-import AboutUs from "@/components/Home/About";
+import About from "@/components/Home/About";
 import Banner from "@/components/Home/Banner";
 import WhyChooseStargate from "@/components/Home/Choose.";
 import Faculty from "@/components/Home/Faculty";
@@ -52,25 +52,25 @@ export default function Home() {
           id: 1,
           title: "Early Years: Crèche and Nursery",
           image: "/assets/images/stargate10.jpg",
-          url: "/program"
+          url: "/programs/early-year"
         },
         {
           id: 2,
           title: "Primary Academy: Building Blocks of Education",
           image: "/assets/images/stargate2.jpg",
-          url: "/program"
+          url: "/program/primary-academy"
         },
         {
           id: 3,
           title: "Secondary Academy: Preparing for the Future",
           image: "/assets/images/stargate6.jpg",
-          url: "/program"
+          url: "/programs/secondary-academy"
         },
         {
           id: 3,
           title: "Tahfeez Program: Nurturing Spiritual Growth",
           image: "/assets/images/stargate3.jpg",
-          url: "/program"
+          url: "/programs/tahfeez-program"
         },
          
       ];
@@ -100,7 +100,7 @@ export default function Home() {
         <div className="w-full  scroll-smooth">
             
                 <Banner />
-                <AboutUs />
+                <About />
                 <Values />
                 <Faculty {...visions} />
                 <WhyChooseStargate />
