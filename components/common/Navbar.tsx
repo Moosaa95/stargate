@@ -81,7 +81,7 @@ const Navbar = () => {
                 </div>
             </div>
             {/* mobile menu items  */}
-            <div className={`space-y-4 px-4 mt-16 py-7 transition-all duration-300 bg-gray-90 text-white ${isMenuOpen ? "block fixed top-0 right-0 left-0":"hidden"}`}>
+            <div className={`space-y-4 px-4 mt-24 py-7 transition-all duration-300 bg-gray-90 text-white ${isMenuOpen ? "block fixed top-0 right-0 left-0":"hidden"}`}>
                 {NAV_LINKS.map(({href, label, key}) => <Link  className="regular-16 text-white flexCenter cursor-pointer pb-1.5 transition-all hover:font-bold" href={href} key={key}>{label}</Link>)}
             </div>
         </nav>
