@@ -96,11 +96,17 @@ export default function Home() {
           imageTwo: "/assets/images/stargate-vision6.jpg",
           link: "/event"
       }
+
+      const about = {
+        title: "About Stargate Excellence Academy",
+        text_one: " Stargate Academy is a beacon of academic excellence committed to nurturing young minds and fostering a culture of lifelong learning and personal growth.",
+        text_two: "Founded in 2008, Stargate Academy has a rich history of providing a comprehensive education that blends rigorous academic standards with spiritual and moral development, preparing students not just for exams but for life."
+      }
     return (
         <div className="w-full  scroll-smooth">
             
                 <Banner />
-                <About />
+                <About {...about}/>
                 <Values />
                 <Faculty {...visions} />
                 <WhyChooseStargate />
