@@ -7,7 +7,7 @@ import fadeIn from "@/variants";
 const Banner = () => {
     return (
         <section className="mt-[100px]   mx-auto min-h-[90vh] h-[70vh] relative">
-            <Carousel className="w-[95%] rounded-md h-full mx-auto relative">
+            <Carousel className="w-full rounded-md h-full mx-auto relative">
                 <div className="h-full relative ">
                     <Image src="/assets/images/stargate1.jpg" alt="" layout="fill" objectFit="cover" />
                     <div className="absolute inset-0 bg-gradient-to-b from-transparent to-black opacity-100"></div>
