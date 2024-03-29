@@ -14,35 +14,39 @@ export default function Home() {
     const programs = [
         {
           id: 1,
-          title: "Early Years: Crèche and Nursery",
+          title: "Crèche and Nursery",
           icon: <FaBabyCarriage size={50} className="rounded-full text-white w-16 h-16 mb-2" />,
           light: true,
           imageUrl: "/assets/images/stargate10.jpg",
-          url: "/program"
+          url: "/programs",
+          stage: "Early Years"
         },
         {
           id: 2,
-          title: "Primary Academy: Building Blocks of Education",
+          title: "Building Blocks of Education",
           icon: <FaSchool size={50} className="rounded-full text-white w-16 h-16 mb-2" />,
           light: false,
           imageUrl: "/assets/images/stargate2.jpg",
-          url: "/program"
+          url: "/programs",
+          stage: "Primary Academy"
         },
         {
           id: 3,
-          title: "Secondary Academy: Preparing for the Future",
+          title: "Preparing for the Future",
           icon: <FaUniversity size={50} className="rounded-full text-white w-16 h-16 mb-2" />,
           light: false,
           imageUrl: "/assets/images/stargate6.jpg",
-          url: "/program"
+          url: "/programs",
+          stage: "Secondary Academy"
         },
         {
           id: 3,
-          title: "Tahfeez Program: Nurturing Spiritual Growth",
+          title: "Nurturing Spiritual Growth",
           icon: <FaPrayingHands size={50} className="rounded-full text-white w-16 h-16 mb-2" />,
           light: false,
           imageUrl: "/assets/images/stargate3.jpg",
-          url: "/program"
+          url: "/programs",
+          stage: "Tahfeez Program"
         },
          
       ];
@@ -52,25 +56,25 @@ export default function Home() {
           id: 1,
           title: "Early Years: Crèche and Nursery",
           image: "/assets/images/stargate10.jpg",
-          url: "/programs/early-year"
+          url: "/programs"
         },
         {
           id: 2,
           title: "Primary Academy: Building Blocks of Education",
           image: "/assets/images/stargate2.jpg",
-          url: "/program/primary-academy"
+          url: "/programs"
         },
         {
           id: 3,
           title: "Secondary Academy: Preparing for the Future",
           image: "/assets/images/stargate6.jpg",
-          url: "/programs/secondary-academy"
+          url: "/programs"
         },
         {
           id: 3,
           title: "Tahfeez Program: Nurturing Spiritual Growth",
           image: "/assets/images/stargate3.jpg",
-          url: "/programs/tahfeez-program"
+          url: "/programs"
         },
          
       ];

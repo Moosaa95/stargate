@@ -340,10 +340,10 @@ Where Stars are Born and Gates Open to the Future.
         <div>
           <div className="font-bold mb-6">Follow us</div>
           <div className="text-sm mb-4">
-            <p>Email: <span>stargateacademy@gmail.com</span></p>
+            <p>Email: <span>stargateexcellencehub@gmail.com</span></p>
           </div>
           <div className="text-sm">
-            <p>Tel: <span>09090909090</span></p>
+            <p>Tel: <span>+2349096207858</span></p>
           </div>
           <div className="flex gap-4">
             <Link className='hover:scale-110 text-xl' href=""><BsFacebook /></Link>

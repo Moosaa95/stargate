@@ -107,6 +107,7 @@ interface Program {
   light: boolean;
   imageUrl: string;
   url: string;
+  stage: string;
 }
 
 interface ProgramCardsProps {
@@ -158,20 +159,26 @@ const Program: React.FC<ProgramCardsProps> = ({ programs })  => {
           {/* academic title */}
           <h1 className="text-3xl font-bold mb-8 text-center text-gray-90 uppercase">Our Programs at Stargate Academy</h1>
         <div className="grid my-16 mx-auto grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-      {programs.map((program) => (
+      {programs.map((program, i) => (
           <motion.div
           variants={fadeIn("up", 0.2)}
           initial="hidden"
           whileInView={"show"}
+          key={i}
           viewport={{once:false, amount:0.7}}>
           <Link href={program.url} key={program.id} className="relative group bg-white rounded-md shadow-md overflow-hidden">
             <Image src={program.imageUrl} width={400} height={300} className="w-full rounded-md block" alt={program.title} />
             {/* ca[tiom] */}
-            <div className="absolute pt-[70%] flex items-center justify-center flex-col inset-0 bg-gray-90 bg-opacity-50 rounded-md opacity-0  group-hover:opacity-100 group-hover:pt-0 transition-all duration-500">
+            {/* <div className="absolute pt-[70%] flex items-center justify-center flex-col inset-0 bg-gray-90 bg-opacity-50 rounded-md opacity-0  group-hover:opacity-100 group-hover:pt-0 transition-all duration-500"> */}
               {/* <Image src={program.imageUrl} width={60} height={60} alt="" className="w-16 h-16 mb-2 object-cover rounded-full" />
+              
                */}
-               {program.icon}
-              <p className="text-yellow-50 text-xl text-center font-bold">{program.title}</p>
+            <div className="absolute right-0 left-0 top-[70%] bg-white rounded-[20px] pt-4 flex items-center justify-center flex-col">
+               {/* {program.icon} */}
+              <div>
+              <p className="text-xl text-center font-bold bg-gray-90 text-white py-2 px-2 rounded-md cursor-pointer">{program.stage}</p>
+              <p className="text-xl text-center font-semibold">{program.title}</p>
+              </div>
             </div>
           </Link>
           </motion.div>

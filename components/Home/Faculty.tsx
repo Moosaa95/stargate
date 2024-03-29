@@ -27,10 +27,10 @@ const Faculty = ({itemTitleOne, itemTitleTwo, itemDescriptionOne, itemDescriptio
                 <p className="text-lg leading-7 text-gray mb-5">
                     {itemDescriptionOne}
                 </p>
-                <button className="py-3 px-4 bg-gray-90 rounded-lg text-white text-sm font-bold">Checkout</button>
+                <button className="py-3 px-4 bg-gray-90 rounded-lg text-white text-sm font-bold">Learn more</button>
             </div>
             <div className="p-4 md:w-3/4 sm:row-start-1">
-                <Image src={imageOne} width={300} height={200} alt="sport" />
+                <Image src={imageOne} width={400} height={200} alt="sport" />
             </div>
             <div className="pl-5">
                 <div className="font-bold sm:text-[1.875rem] text-[1.5rem] mb-5">
@@ -39,10 +39,10 @@ const Faculty = ({itemTitleOne, itemTitleTwo, itemDescriptionOne, itemDescriptio
                 <p className="text-lg leading-7 text-gray mb-5">
                     {itemDescriptionTwo}
                 </p>
-                <button className="py-3 px-4 bg-gray-90 rounded-lg text-white text-sm font-bold">Checkout</button>
+                <button className="py-3 px-4 bg-gray-90 rounded-lg text-white text-sm font-bold">Learn more</button>
             </div>
             <div className="p-4 md:w-3/4">
-                <Image src={imageTwo} width={300} height={200} alt="sport" />
+                <Image src={imageTwo} width={400} height={200} alt="sport" />
             </div>
         </div>
       

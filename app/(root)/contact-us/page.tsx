@@ -17,17 +17,17 @@ const ContactPage: React.FC = () => {
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             <div>
               <h4 className="text-lg font-semibold mb-2">Address</h4>
-              <p className="text-gray-700">123 Main Street</p>
-              <p className="text-gray-700">City, State, Zip Code</p>
+              <p className="text-gray-700"> phase iv, kubwa</p>
+              <p className="text-gray-700">Fct Abuja</p>
               <p className="text-gray-700">Nigeria</p>
             </div>
             <div>
               <h4 className="text-lg font-semibold mb-2">Phone</h4>
-              <p className="text-gray-700">123-456-7890</p>
+              <p className="text-gray-700">+2349096207858</p>
             </div>
             <div>
               <h4 className="text-lg font-semibold mb-2">Email</h4>
-              <p className="text-gray-700">info@stargateacademy.com</p>
+              <p className="text-gray-700">stargateexcellencehub@gmail.com</p>
             </div>
             <div>
               <h4 className="text-lg font-semibold mb-2">Office Hours</h4>

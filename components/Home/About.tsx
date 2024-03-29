@@ -11,8 +11,8 @@ interface AboutProps {
 const About = ({title, text_one, text_two}: AboutProps) => {
   return (
     <section className='w-full bg-white py-16 px-4'>
-        <div className="max-w-[1240px] gap-10 mx-auto grid md:grid-cols-2">
-            <Image src="/assets/images/stargate4.jpg" alt='stargate building' width={400} height={300} className='w-[100%] mx-auto my-4'/>
+        <div className="max-w-[1240px] gap-10 mx-auto grid md:grid-cols-5">
+        <div className='col-span-3'>
             <motion.div
                 variants={fadeIn("up", 0.1)}
                 initial="hidden"
@@ -36,6 +36,10 @@ const About = ({title, text_one, text_two}: AboutProps) => {
                 </p>
                 {/* <button className='bg-gray-90 w-[200px] rounded-md font-medium my-6 mx-auto py-3 md:mx-0 text-white hover:font-bold'>Learn More</button> */}
             </motion.div>
+            </div>
+            <div className='col-span-2 rounded-md'>
+            <Image src="/assets/images/stargate4.jpg" alt='stargate building' width={600} height={300} className='mx-auto my-4 rounded-md'/>
+            </div>
         </div>
 
     </section>
