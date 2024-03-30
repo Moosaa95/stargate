@@ -18,7 +18,7 @@ const AcademicProgramCard = ({ title, description, imageUrl }: AcademicProps) =>
             onMouseLeave={() => setIsHovered(false)}
         >
             <div className="relative overflow-hidden">
-                <Image src={imageUrl} alt={title} width={300} height={200} className="object-cover transition duration-300 transform-gpu scale-100 hover:scale-105" />
+                <Image src={imageUrl} alt={title} width={400} height={200} className="object-cover transition duration-300 transform-gpu scale-100 hover:scale-105" />
                 {isHovered && (
                     <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 transition duration-300 opacity-0 hover:opacity-100">
                         <p className="text-white text-lg font-bold text-center">{title}</p>
