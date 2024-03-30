@@ -299,7 +299,7 @@ import Link from 'next/link';
 
 export default function Footer() {
   return (
-    <motion.footer className='bg-gray-90 p-10'
+    <motion.footer className='bg-gray-90 p-10 w-[100%] overflow-x-hidden'
       initial={{height: 0}}
       whileInView={{height: 'auto'}}
       transition={{duration: 1}}
@@ -340,7 +340,7 @@ Where Stars are Born and Gates Open to the Future.
         <div>
           <div className="font-bold mb-6">Follow us</div>
           <div className="text-sm mb-4">
-            <p>Email: <span>stargateexcellencehub@gmail.com</span></p>
+            <p>Email:<span>stargateexcellencehub@gmail.com</span></p>
           </div>
           <div className="text-sm">
             <p>Tel: <span>+2349096207858</span></p>

@@ -76,7 +76,7 @@ const Navbar = () => {
                     <button className="focus:outline-none focus:text-gray-90"
                         onClick={toggleMenu}
                     >
-                        {isMenuOpen ? (<FaXmark className={`h-6 w-6 ${isSticky ? "text-white" : "text-gray-90"}`} />) : (<FaBars className={`h-6 w-6  ${isSticky ? "text-white" : "text-gray-90" }`} />)}
+                        {isMenuOpen ? (<FaXmark className={`h-8 w-8 ${isSticky ? "text-white" : "text-gray-90"}`} />) : (<FaBars className={`h-8 w-8  ${isSticky ? "text-white" : "text-gray-90" }`} />)}
                     </button>
                 </div>
             </div>
