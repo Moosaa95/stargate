@@ -1,4 +1,7 @@
+import AdmissionsForm from '@/components/forms/AdmissionForm';
 import React from 'react';
+
+
 
 const Admissions: React.FC = () => {
   const steps = [
@@ -60,8 +63,10 @@ const Admissions: React.FC = () => {
           </p>
         </div>
       </div>
+      <AdmissionsForm />
     </section>
   );
 };
 
 export default Admissions;
+

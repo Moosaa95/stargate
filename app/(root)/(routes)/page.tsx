@@ -73,7 +73,7 @@ export default function Home() {
         {
           id: 3,
           title: "Tahfeez Program: Nurturing Spiritual Growth",
-          image: "/assets/images/stargate3.jpg",
+          image: "/assets/images/stargate-tahfeez-students.jpg",
           url: "/programs"
         },
          
@@ -84,11 +84,11 @@ export default function Home() {
           itemTitleOne: "Sports",
           itemTitleTwo: "Clubs and Societies",
           itemDescriptionOne: "At Stargate Academy, we believe in the importance of a well-rounded education. Our extracurricular program offers a wide range of activities, from sports to clubs, allowing students to explore their interests, develop new skills, and build lasting friendships.",
-          itemDescriptionTwo: "At Stargate Academy, we believe in the importance of a well-rounded education. Our extracurricular program offers a wide range of activities, from sports to clubs, allowing students to explore their interests, develop new skills, and build lasting friendships. ",
+          itemDescriptionTwo: "Including the Press Club, Jet Club, Farmers Club, and Home Makers, our clubs encourage students to pursue their passions outside the academic curriculum. ",
           Title: "Extracurricular Activities",
-          imageOne: "/assets/images/stargate-sport.jpg",
-          imageTwo: "/assets/images/stargate2.jpg",
-          link: "/event"
+          imageOne: "/assets/images/stargate-sports.jpg",
+          imageTwo: "/assets/images/stargate-academy-activities.jpg",
+          link: "/programs"
         }
       const visions = {
         itemTitleOne: "Academic and Spiritual Excellence",
@@ -96,9 +96,9 @@ export default function Home() {
           itemDescriptionOne: "Our core principles guide everything we do, from the classroom to the community. Discipline, integrity, and resilience are not just ideals but daily practices, woven into the fabric of our Academy life. We believe in the power of education to transform lives, fostering strength, character, and a commitment to excellence in our students.",
           itemDescriptionTwo: "From play-based learning in our crèche and nursery programs to interactive and personalized instruction in our primary and secondary levels, we cater to each child's unique needs. Our extracurricular offerings, including the Press Club, Jet Club, and various sports, ensure that every student finds their passion and pursues it with vigor.",
           Title: "Our Vision in Action",
-          imageOne: "/assets/images/stargate-vision1.jpg",
-          imageTwo: "/assets/images/stargate-vision6.jpg",
-          link: "/event"
+          imageOne: "/assets/images/stargate-academy-spiritual.jpg",
+          imageTwo: "/assets/images/stargate-academy-diverse.jpg",
+          link: "/programs"
       }
 
       const about = {

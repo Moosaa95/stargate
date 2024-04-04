@@ -7,6 +7,14 @@ interface AcademicProps {
     description: string;
     imageUrl: string;
 }
+interface ProgramsProp {
+    programs: AcademicProps[];
+    programTitle: string;
+    programDescriptionOne: string;
+    programDescriptionTwo: string;
+
+
+}
 
 const AcademicProgramCard = ({ title, description, imageUrl }: AcademicProps) => {
     const [isHovered, setIsHovered] = useState(false);
@@ -33,35 +41,18 @@ const AcademicProgramCard = ({ title, description, imageUrl }: AcademicProps) =>
     );
 };
 
-const AcademicProgramsSection = () => {
-    const programs = [
-        {
-            title: "Early Years: Crèche and Nursery",
-            description: "Our early years program focuses on play-based learning and interactive activities, laying the foundation for a lifelong love of learning.",
-            imageUrl: "/assets/images/stargate8.jpg"
-        },
-        {
-            title: "Primary Academy: Building Blocks of Education",
-            description: "As students progress to our primary Academy, they encounter a more structured yet flexible curriculum designed to spark curiosity and foster academic excellence.",
-            imageUrl: "/assets/images/stargate4.jpg"
-        },
-        {
-            title: "Secondary Academy: Preparing for the Future",
-            description: "Our secondary Academy program is divided into junior and senior sections, each tailored to prepare students for the challenges and opportunities ahead.",
-            imageUrl: "/assets/images/stargate5.jpg"
-        }
-    ];
+const AcademicProgramsSection = ({programTitle, programDescriptionOne, programDescriptionTwo, programs}:ProgramsProp) => {
 
     return (
         <section className="py-12 bg-gray-100">
             <div className="container mx-auto px-4">
                 <div className="max-w-4xl mx-auto text-center">
-                    <h2 className="text-3xl font-bold mb-8 text-gray-90">Academic Programs at Stargate Academy</h2>
+                    <h2 className="text-3xl font-bold mb-8 text-gray-90">{programTitle}</h2>
                     <p className="text-lg text-gray-700 mb-8">
-                        At Stargate Academy, we are committed to offering an enriching curriculum that prepares students for success in a dynamic world. Our academic programs integrate the rigorous standards of Nigerian and British curricula with the spiritual depth of Islamic studies, creating a holistic educational journey that nurtures the mind, body, and spirit.
+                        {programDescriptionOne}
                     </p>
                     <p className="text-lg text-gray-700 mb-8">
-                        From our youngest learners in crèche and nursery to our future graduates in senior secondary, every student embarks on a transformative journey of discovery, learning, and growth.
+                        {programDescriptionTwo}
                     </p>
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                         {programs.map(program => (

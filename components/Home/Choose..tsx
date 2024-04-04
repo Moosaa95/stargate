@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const WhyChooseStargate = () => {
   return (
     <section className="bg-gradient-to-b from-blue-200 to-blue-300 py-16 mb-10">
@@ -8,7 +10,7 @@ const WhyChooseStargate = () => {
             Embark on a transformative journey with Stargate Academy. Our admission process is designed to be as welcoming and inclusive as our Academy community. Whether you're seeking a place for academic rigor, spiritual growth, or extracurricular excellence, you'll find your path here.
           </p>
           <div className="flex justify-center mb-8">
-            <button className="bg-gray-90 text-white py-2 px-6 rounded-full shadow-md hover:bg-blue-600 transition duration-300 ease-in-out">Apply Now</button>
+            <Link href="/admission" className="bg-gray-90 text-white py-2 px-6 rounded-full shadow-md hover:bg-blue-600 transition duration-300 ease-in-out">Apply Now</Link>
           </div>
           <p className="text-lg text-gray-800 mb-8">
             <span className="font-bold">A Future Bright with Possibility:</span> Every day, we open gates to new opportunities, learning experiences, and paths to success for our students. We invite you to become a part of our story, where every student is a star, ready to shine bright and open doors to their future.

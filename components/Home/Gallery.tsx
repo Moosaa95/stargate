@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 interface GalleryProps {
     image: string;
@@ -17,7 +18,9 @@ const Gallery = ({galleries}:GalleryCardsProps) => {
             <div className="flex gap-8 md:w-full sm:w-[170%] xs:w-[340%] w-[40%]">
                 {galleries.map((gallery) => (
                     <div className="p-2 shadow-lg min-w-[15rem] bg-white rounded-md">
+                        <Link href="/gallery">
                         <Image src={gallery.image} alt={gallery.title} width={400} height={300}/>
+                        </Link>
                         {/* <div>{gallery.title}</div> */}
                     </div>
                 ))}

@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const EducationPhilosophyAndEnrollment = () => {
     return (
       <section className="py-12 bg-gray-100">
@@ -11,7 +13,7 @@ const EducationPhilosophyAndEnrollment = () => {
             <p className="text-lg text-gray-700 mb-8">
               Discover the difference a Stargate education can make. Our academic programs are designed to challenge, inspire, and prepare students for a bright future. Join us and embark on a journey of academic excellence, personal growth, and spiritual development. Welcome to Stargate Academy, where every student is a star, ready to shine.
             </p>
-            <button className="bg-blue-500 text-white py-3 px-6 rounded-full shadow-md hover:bg-blue-600 transition duration-300">Enroll Now</button>
+            <Link href="/admission" className="bg-blue-500 text-white py-3 px-6 rounded-full shadow-md hover:bg-blue-600 transition duration-300">Enroll Now</Link>
           </div>
         </div>
       </section>

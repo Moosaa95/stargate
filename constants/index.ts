@@ -1,14 +1,14 @@
 // NAVIGATION
 export const NAV_LINKS = [
-    { href: '/', key: 'home', label: 'Home' },
+    // { href: '/', key: 'home', label: 'Home' },
     { href: '/programs', key: 'programs', label: 'Programs' },
-    // { href: '/tahfeez', key: 'tahfeez', label: 'Tahfeez Program' },
+    { href: '/tahfeez', key: 'tahfeez', label: 'Tahfeez' },
     { href: '/admission', key: 'admission', label: 'Admission' },
     { href: '/gallery', key: 'gallery', label: 'Gallery' },
     // { href: '/event', key: 'event', label: 'Event' },
     // { href: '/blog', key: 'blog', label: 'Blog' },
     { href: '/about-us', key: 'about_us', label: 'About' },
-    { href: '/contact-us', key: 'contact_us', label: 'Contact Us' },
+    { href: '/contact-us', key: 'contact_us', label: 'Contact' },
   ];
 
   export const faqs = [

@@ -320,10 +320,10 @@ Where Stars are Born and Gates Open to the Future.
            <h3>Pages </h3>
           </div>
           <div className='flex flex-col gap-6'>
-          <Link href="" className='text-sm hover:underline'>Home</Link>
-          <Link href="" className='text-sm hover:underline'>Blog</Link>
-          <Link href="" className='text-sm hover:underline'>Programs</Link>
-          <Link href="" className='text-sm hover:underline'>Event</Link>
+          <Link href="/" className='text-sm hover:underline'>Home</Link>
+          {/* <Link href="" className='text-sm hover:underline'>Blog</Link> */}
+          <Link href="/programs" className='text-sm hover:underline'>Programs</Link>
+          {/* <Link href="" className='text-sm hover:underline'>Event</Link> */}
 
           </div>
         </div>
@@ -333,8 +333,8 @@ Where Stars are Born and Gates Open to the Future.
           </div>
           <div className="flex flex-col gap-6">
             <Link className='text-sm hover:underline' href="">Careers</Link>
-            <Link className='text-sm hover:underline' href="">Tahfeez</Link>
-            <Link className='text-sm hover:underline' href="">Gallery</Link>
+            <Link className='text-sm hover:underline' href="/tahfeez">Tahfeez</Link>
+            <Link className='text-sm hover:underline' href="/gallery">Gallery</Link>
           </div>
         </div>
         <div>
