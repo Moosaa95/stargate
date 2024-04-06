@@ -140,7 +140,7 @@ const location: Location = {
 const ContactPage: FC = () => {
   return (
     <section className="container mx-auto py-16 px-4">
-      <h2 className="text-4xl font-bold text-center mb-12 text-gray-900">
+      <h2 className="text-4xl font-bold text-center mb-12 text-gray-90">
         Contact Us
       </h2>
       <div className="max-w-4xl mx-auto">
@@ -154,7 +154,7 @@ const ContactPage: FC = () => {
 
 const SchoolInformation: FC = () => (
   <div className="bg-white rounded-lg shadow-md p-8 mb-12">
-          <h3 className="text-2xl font-bold mb-4">School Information</h3>
+          <h3 className="text-2xl font-bold mb-4 text-gray-90">School Information</h3>
           <p className="text-gray-700 mb-4">
             Stargate Academy is committed to providing high-quality education and fostering a nurturing environment for our students. 
             Contact us today to learn more about our programs and offerings.
@@ -188,14 +188,14 @@ interface MapSectionProps {
 
 const MapSection: FC<MapSectionProps> = ({ location }) => (
   <div className="bg-white rounded-lg shadow-md p-8">
-    <h3 className="text-2xl font-bold mb-4">Our Location</h3>
+    <h3 className="text-2xl font-bold mb-4 text-gray-90">Our Location</h3>
     <MapWithNoSSR location={location} />
   </div>
 );
 
 const ContactForm: FC = () => (
   <div className="bg-white rounded-lg shadow-md p-8">
-          <h3 className="text-2xl font-bold mb-4">Contact Form</h3>
+          <h3 className="text-2xl font-bold mb-4 text-gray-90">Contact Form</h3>
           <motion.form
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
