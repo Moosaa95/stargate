@@ -1,6 +1,7 @@
 import { faqs } from "@/constants"
 import Image from "next/image"
 import Accordion from "./Accordion"
+import Link from "next/link";
 
 interface ItemProps {
     itemTitleOne: string;
@@ -27,7 +28,8 @@ const Faculty = ({itemTitleOne, itemTitleTwo, itemDescriptionOne, itemDescriptio
                 <p className="text-lg leading-7 text-gray mb-5">
                     {itemDescriptionOne}
                 </p>
-                <button className="py-3 px-4 bg-gray-90 rounded-lg text-white text-sm font-bold">Learn more</button>
+                {/* <button className="py-3 px-4 bg-gray-90 rounded-lg text-white text-sm font-bold">Learn more</button> */}
+                <Link href={link} className="py-3 px-4 bg-gray-90 rounded-lg text-white text-sm font-bold">Learn more</Link>
             </div>
             <div className="p-4 md:w-3/4 sm:row-start-1">
                 <Image src={imageOne} width={400} height={200} alt="sport" />
@@ -39,7 +41,7 @@ const Faculty = ({itemTitleOne, itemTitleTwo, itemDescriptionOne, itemDescriptio
                 <p className="text-lg leading-7 text-gray mb-5">
                     {itemDescriptionTwo}
                 </p>
-                <button className="py-3 px-4 bg-gray-90 rounded-lg text-white text-sm font-bold">Learn more</button>
+                <Link href={link} className="py-3 px-4 bg-gray-90 rounded-lg text-white text-sm font-bold">Learn more</Link>
             </div>
             <div className="p-4 md:w-3/4">
                 <Image src={imageTwo} width={400} height={200} alt="sport" />

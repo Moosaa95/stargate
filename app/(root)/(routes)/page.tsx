@@ -45,7 +45,7 @@ export default function Home() {
           icon: <FaPrayingHands size={50} className="rounded-full text-white w-16 h-16 mb-2" />,
           light: false,
           imageUrl: "/assets/images/stargate3.jpg",
-          url: "/programs",
+          url: "/tahfeez",
           stage: "Tahfeez Program"
         },
          
