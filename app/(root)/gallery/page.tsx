@@ -61,6 +61,12 @@ const Gallery = () => {
     { src: '/assets/images/stargate-graduating-students.jpg', description: 'Stargate Academy Graduating Students' },
     { src: '/assets/images/stargate-graduating-students-1.jpg', description: 'Stargate Academy Graduating Students' },
     { src: '/assets/images/stargate-graduation-student-2.jpg', description: 'Stargate Academy Graduating Students' },
+    { src: '/assets/images/stargate2.jpg', description: 'stargate students' },
+    { src: '/assets/images/stargate3.jpg', description: 'stargate students' },
+    { src: '/assets/images/stargate4.jpg', description: 'stargate students' },
+    { src: '/assets/images/stargate5.jpg', description: 'stargate students' },
+    { src: '/assets/images/stargate6.jpg', description: 'stargate students' },
+    { src: '/assets/images/stargate7.jpg', description: 'stargate students' },
     
     // '/assets/images/stargate1.jpg',
     // '/assets/images/stargate2.jpg',
