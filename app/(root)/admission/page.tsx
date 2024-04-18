@@ -1,7 +1,10 @@
 import AdmissionsForm from '@/components/forms/AdmissionForm';
+import { Metadata } from 'next';
 import React from 'react';
 
-
+export const metadata: Metadata = {
+  title: "Admission"
+}
 
 const Admissions: React.FC = () => {
   const steps = [

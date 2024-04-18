@@ -120,6 +120,11 @@ import { FC } from 'react';
 import { motion } from 'framer-motion';
 import 'leaflet/dist/leaflet.css';
 import dynamic from 'next/dynamic';
+// import { Metadata } from 'next';
+
+// export const metadata: Metadata = {
+//   title: "Contact Us"
+// }
 
 const MapWithNoSSR = dynamic(() => import('@/components/map/MapComponent'), {
   ssr: false,

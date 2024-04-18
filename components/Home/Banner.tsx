@@ -22,7 +22,8 @@ const Banner = () => {
             <Carousel className="w-[95%] rounded-md h-full mx-auto relative">
                 <CarouselSlide src="/assets/images/stargate1.jpg" alt="A view of Stargate Academy"/>
                 <CarouselSlide src="/assets/images/stargate2.jpg" alt="Exploring the unknown at Stargate Academy"/>
-                <CarouselSlide src="/assets/images/stargate3.jpg" alt="Join us on an adventure at Stargate Academy"/>
+                <CarouselSlide src="/assets/images/stargate-banner-one.jpeg" alt="Join us on an adventure at Stargate Academy"/>
+                <CarouselSlide src="/assets/images/stargate-banner-two.jpeg" alt="Join us on an adventure at Stargate Academy"/>
             </Carousel>
             <motion.div
                 variants={fadeIn("up", 0.2)}

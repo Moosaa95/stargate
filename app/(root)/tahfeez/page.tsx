@@ -3,6 +3,13 @@
 import AcademicProgramsSection from "@/components/programs/Academic";
 import FacultyOverview from "@/components/programs/FacultyOverview";
 import FacultyAndExtracurricular from "@/components/programs/FacultySport";
+import { Metadata } from "next";
+
+
+export const metadata: Metadata = {
+  title: "Tahfeez Program"
+}
+
 
 const TahfeezProgram = () => {
   const tahfeezArray = {

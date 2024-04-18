@@ -6,9 +6,14 @@ import Faq from "@/components/Home/Faq";
 import Gallery from "@/components/Home/Gallery";
 import NewsLetter from "@/components/Home/NewsLetter";
 import Program from "@/components/Home/Programs";
+import { Metadata } from "next";
 // import Values from "@/components/Home/Values";
 import { FaBabyCarriage, FaSchool, FaUniversity, FaPrayingHands } from 'react-icons/fa';
 
+
+export const metadata: Metadata = {
+  title: "Home"
+}
 
 export default function Home() {
     const programs = [

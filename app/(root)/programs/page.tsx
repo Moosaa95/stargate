@@ -2,7 +2,12 @@ import AcademicProgramsSection from "@/components/programs/Academic";
 import EducationPhilosophyAndEnrollment from "@/components/programs/Education";
 import FacultyOverview from "@/components/programs/FacultyOverview";
 import FacultyAndExtracurricular from "@/components/programs/FacultySport";
+import { Metadata } from "next";
 
+
+export const metadata: Metadata = {
+  title: "Programs"
+}
 const facultySections = [
   {
     title: 'Our Pillars of Strength',

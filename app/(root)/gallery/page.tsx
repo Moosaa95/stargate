@@ -43,9 +43,14 @@
 // export default Gallery;
 "use client"
 
+// import { Metadata } from 'next';
 import Image from 'next/image';
 import { useState } from 'react';
 import Modal from 'react-modal';
+
+// export const metadata: Metadata = {
+//   title: "Gallery"
+// }
 
 
 interface ImageWithDescription {

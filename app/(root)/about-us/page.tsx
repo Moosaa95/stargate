@@ -4,6 +4,8 @@ import Testimonial from '@/components/Home/Testimonial';
 import Values from '@/components/Home/Values';
 import Image from 'next/image';
 
+
+
 const AboutUs = () => {
   const AboutContent = {
     title: "Discover Stargate Academy",
