@@ -1,21 +1,20 @@
-
 import FooterComponent from "@/components/common/Footer";
-// import Footer from "@/components/common/Footer";
 import Navbar from "@/components/common/Navbar";
 import React from "react";
 
-export default async function ({
+export default function Layout({
     children
-} : {children:React.ReactNode}){
+} : {children:React.ReactNode}) {
 
     return (
-        <div>
+        <div className="flex flex-col justify-between min-h-screen">  
             <Navbar />
-            <main className="relative overflow-hidden bg-gradient-to-b from-white to-gray-100">
-            {children}
+            <main className="flex-grow">  
+                <div className="relative overflow-hidden bg-gradient-to-b from-white to-gray-100">
+                    {children}
+                </div>
             </main>
             <FooterComponent />
         </div>
-    )
+    );
 }
-

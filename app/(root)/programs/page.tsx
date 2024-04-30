@@ -49,17 +49,17 @@ const academyArray = {
     {
         title: "Early Years: Crèche and Nursery",
         description: "Our early years program focuses on play-based learning and interactive activities, laying the foundation for a lifelong love of learning.",
-        imageUrl: "/assets/images/stargate-academy-creche.jpg"
+        imageUrl: "/assets/images/stargate-creche.jpg"
     },
     {
         title: "Primary Academy: Building Blocks of Education",
         description: "As students progress to our primary Academy, they encounter a more structured yet flexible curriculum designed to spark curiosity and foster academic excellence.",
-        imageUrl: "/assets/images/stargate-academy-primary.jpg"
+        imageUrl: "/assets/images/stargate2.jpg"
     },
     {
         title: "Secondary Academy: Preparing for the Future",
         description: "Our secondary Academy program is divided into junior and senior sections, each tailored to prepare students for the challenges and opportunities ahead.",
-        imageUrl: "/assets/images/stargate-academy-secondary.jpg"
+        imageUrl: "/assets/images/stargate6.jpg"
     }
 ]
 }

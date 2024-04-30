@@ -30,36 +30,7 @@ const Navbar = () => {
         };
     }, [])
   return (
-    // <nav className="flexBetween max-container padding-container relative z-30 py-5">
-    //     <div>
-        // <Link href="/" className="text-2xl font-semibold flex items-center space-x-3">
-        //     <Image src="/assets/images/icon.jpg" alt="Logo Image" width={74} height={29} className="inline-bloock items-center"/>
-        //     <span className="text-gray-90">Stargate Academy</span>
-        // </Link>
-    //     </div>
-    //     <ul className="hidden h-full gap-12 lg:flex">
-    //         {NAV_LINKS.map((link) => (
-    //             <Link href={link.href} key={link.key} className="regular-16 text-gray-90 flexCenter cursor-pointer pb-1.5 transition-all hover:font-bold">
-    //                 {link.label}
-    //             </Link>
-    //         ))}
-    //     </ul>
-    //     <div className="lg:flexCenter hidden">
-    //         <Button 
-    //             title="Login"
-    //             type="button"
-    //             icon="/user.svg"
-    //             variant="btn_dark_gray"
-    //         />
-    //     </div>
-    //     <Image 
-    //         src="menu.svg"
-    //         alt="menu"
-    //         width={32}
-    //         height={32}
-    //         className="inline-block cursor-pointer lg:hidden"
-    //     />
-    // </nav>
+    
     <header className="w-full bg-white md:bg-transparent fixed top-0 left-0 right-0">
         <nav className={`py-4 lg:px-14 ${isSticky ? "sticky top-0 left-0 right-0 border-b bg-gray-90 duration-300" : ""}`}>
             <div className="flex justify-between items-center text-base gap-8">

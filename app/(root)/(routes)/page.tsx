@@ -22,7 +22,7 @@ export default function Home() {
           title: "Crèche and Nursery",
           icon: <FaBabyCarriage size={50} className="rounded-full text-white w-16 h-16 mb-2" />,
           light: true,
-          imageUrl: "/assets/images/stargate10.jpg",
+          imageUrl: "/assets/images/stargate-creche.jpg",
           url: "/programs",
           stage: "Early Years"
         },
@@ -49,7 +49,7 @@ export default function Home() {
           title: "Nurturing Spiritual Growth",
           icon: <FaPrayingHands size={50} className="rounded-full text-white w-16 h-16 mb-2" />,
           light: false,
-          imageUrl: "/assets/images/stargate3.jpg",
+          imageUrl: "/assets/images/stargate-tahfeez-students.jpg",
           url: "/tahfeez",
           stage: "Tahfeez Program"
         },
@@ -60,7 +60,7 @@ export default function Home() {
         {
           id: 1,
           title: "Early Years: Crèche and Nursery",
-          image: "/assets/images/stargate10.jpg",
+          image: "/assets/images/stargate-creche.jpg",
           url: "/programs"
         },
         {
@@ -76,7 +76,19 @@ export default function Home() {
           url: "/programs"
         },
         {
-          id: 3,
+          id: 4,
+          title: "Tahfeez Program: Nurturing Spiritual Growth",
+          image: "/assets/images/stargate-tahfeez-students.jpg",
+          url: "/programs"
+        },
+        {
+          id: 5,
+          title: "Tahfeez Program: Nurturing Spiritual Growth",
+          image: "/assets/images/stargate-tahfeez-students.jpg",
+          url: "/programs"
+        },
+        {
+          id: 6,
           title: "Tahfeez Program: Nurturing Spiritual Growth",
           image: "/assets/images/stargate-tahfeez-students.jpg",
           url: "/programs"
@@ -91,8 +103,8 @@ export default function Home() {
           itemDescriptionOne: "At Stargate Academy, we believe in the importance of a well-rounded education. Our extracurricular program offers a wide range of activities, from sports to clubs, allowing students to explore their interests, develop new skills, and build lasting friendships.",
           itemDescriptionTwo: "Including the Press Club, Jet Club, Farmers Club, and Home Makers, our clubs encourage students to pursue their passions outside the academic curriculum. ",
           Title: "Extracurricular Activities",
-          imageOne: "/assets/images/stargate-sports.jpg",
-          imageTwo: "/assets/images/stargate-academy-activities.jpg",
+          imageOne: "/assets/images/stargate-interhouse9.jpeg",
+          imageTwo: "/assets/images/stargate5.jpg",
           link: "/programs"
         }
       const visions = {
@@ -102,7 +114,7 @@ export default function Home() {
           itemDescriptionTwo: "From play-based learning in our crèche and nursery programs to interactive and personalized instruction in our primary and secondary levels, we cater to each child's unique needs. Our extracurricular offerings, including the Press Club, Jet Club, and various sports, ensure that every student finds their passion and pursues it with vigor.",
           Title: "Our Vision in Action",
           imageOne: "/assets/images/stargate-academy-spiritual.jpg",
-          imageTwo: "/assets/images/stargate-academy-diverse.jpg",
+          imageTwo: "/assets/images/stargate10.jpg",
           link: "/programs"
       }
 

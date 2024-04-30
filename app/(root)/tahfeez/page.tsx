@@ -50,20 +50,13 @@ const TahfeezProgram = () => {
     },
     {
       title: 'Beyond Academics: Building Character and Community',
-      text: `The Tahfeez program is more than just an educational offering; it&#39;s a cornerstone of our community
+      text: `The Tahfeez program is more than just an educational offering; it's a cornerstone of our community
       at Stargate Academy. By integrating Islamic education into our curriculum, we help our students
       develop a strong moral compass and a sense of identity rooted in their faith. This program also
       reinforces the values of discipline, perseverance, and community, as students learn alongside their
       peers and form bonds that extend beyond the classroom.`,
     },
-    // {
-    //   title: 'Lifelong Learning Advocates',
-    //   text: `This dedication not only enriches their teaching but also models the importance of continual growth and curiosity for their students.`,
-    // },
-    // {
-    //   title: 'Community Builders',
-    //   text: `Their influence extends far beyond academic achievement, contributing to the holistic development of our students as global citizens.`,
-    // },
+    
     {
       title: "Join Our Tahfeez Program",
       text: "We invite you to enrich your child's educational journey with the gift of Quranic knowledge and the timeless teachings of Islam. The Tahfeez program at Stargate Academy is open to all students who seek to embrace their faith, learn the beautiful art of Quranic recitation, and live the principles of Islam in their daily lives. Join us, and watch your child grow not only academically but also spiritually,ready to lead with faith, integrity, and compassion."
@@ -72,9 +65,6 @@ const TahfeezProgram = () => {
     return (
       <section className="relative bg-cover bg-center py-16 mt-[50px]">
         <AcademicProgramsSection {...tahfeezArray} />
-        {/* <FacultyAndExtracurricular /> */}
-        {/* <EducationPhilosophyAndEnrollment />
-        <FacultyOverview sections={facultySections} /> */}
         <FacultyOverview sections={facultySections} />
 
       </section>
