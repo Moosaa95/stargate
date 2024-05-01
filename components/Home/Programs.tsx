@@ -36,7 +36,7 @@ const Program: React.FC<ProgramCardsProps> = ({ programs }) => {
   return (
     <>
       <div className="container mx-auto px-4 max-w-screen-xl">
-        <h1 className="text-3xl font-bold mb-8 text-center text-gray-90 uppercase">Our Programs at Stargate Academy</h1>
+        <h1 className="text-xl lg:text-3xl font-bold mb-8 text-center text-gray-90 uppercase">Our Programs at Stargate Academy</h1>
         <div className="grid my-16 mx-auto grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           {programs.map((program, i) => (
             <motion.div

@@ -19,7 +19,7 @@ const CarouselSlide = ({ src, alt }:CarouselProps) => (
 
 const Banner = () => {
     return (
-        <section className="mt-[100px] mx-auto min-h-[90vh] h-[70vh] relative">
+        <section className="mt-[100px] mx-auto lg:min-h-[90vh] h-[40vh] relative">
             <Carousel className="w-[95%] rounded-md h-full mx-auto relative">
                 <CarouselSlide src="/assets/images/stargate1.jpg" alt="A view of Stargate Academy"/>
                 <CarouselSlide src="/assets/images/stargate2.jpg" alt="Exploring the unknown at Stargate Academy"/>
@@ -31,9 +31,9 @@ const Banner = () => {
                 initial="hidden"
                 whileInView="show"
                 viewport={{ once: false, amount: 0.7 }}
-                className="absolute top-1/2 left-1/4 right-1/4 transform -translate-x-1/2 -translate-y-1/2 text-white text-center z-10 ">
-                <h1 className="text-4xl lg:text-6xl font-bold">Welcome to Stargate Excellence Academy</h1>
-                <p className="text-lg lg:text-xl m-4">Where Stars are Born and Gates Open to the Future.</p>
+                className="absolute top-1/4 lg:top-1/2 left-1/4 right-1/4 transform -translate-x-1/2 -translate-y-1/2 text-white text-center z-10 ">
+                <h1 className="text-xl lg:text-6xl font-bold">Welcome to Stargate Excellence Academy</h1>
+                <p className="text-xl lg:text-xl m-4">Where Stars are Born and Gates Open to the Future.</p>
                 <Link href="/programs" className="mt-4 hidden lg:inline-block bg-gray-90 hover:bg-blue-600 text-white font-bold py-4 px-6 rounded-lg transition-colors duration-300">
                         Explore Our Programs
                 </Link>
