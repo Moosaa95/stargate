@@ -34,7 +34,7 @@ const Banner = () => {
                 className="absolute top-1/2 left-1/4 right-1/4 transform -translate-x-1/2 -translate-y-1/2 text-white text-center z-10 ">
                 <h1 className="text-4xl lg:text-6xl font-bold">Welcome to Stargate Excellence Academy</h1>
                 <p className="text-lg lg:text-xl m-4">Where Stars are Born and Gates Open to the Future.</p>
-                <Link href="/programs" className="mt-4 bg-gray-90 hover:bg-blue-600 text-white font-bold py-4 px-6 rounded-lg transition-colors duration-300">
+                <Link href="/programs" className="mt-4 hidden lg:inline-block bg-gray-90 hover:bg-blue-600 text-white font-bold py-4 px-6 rounded-lg transition-colors duration-300">
                         Explore Our Programs
                 </Link>
             </motion.div>
