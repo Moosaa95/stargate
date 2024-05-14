@@ -21,16 +21,16 @@ const About = ({ title, text_one, text_two }: AboutProps) => {
             whileInView="show"
             viewport={{ once: true, amount: 0.8 }}
           >
-            <h1 className="text-xl lg:text-4xl font-bold text-gray-90">
+            <h1 className="text-xl lg:text-4xl font-freeman font-bold text-gray-90">
               {title}
             </h1>
-            <p className="lg:text-xl text-sm text-gray-700">
+            <p className="lg:text-xl font-mono mb-4 text-sm text-gray-700">
               {text_one}
             </p>
-            <p className="text-sm lg:text-xl  text-gray-700">
+            <p className="text-sm font-merriweather lg:text-xl  text-gray-700">
               {text_two}
             </p>
-            <Link href="/apply" className="mt-4 inline-block  bg-gray-90 text-white font-medium py-2 px-4 rounded-lg hover:bg-blue-600 transition-colors">
+            <Link href="/apply" className="mt-4 inline-block  bg-gray-90 text-white font-medium font-freeman py-2 px-4 rounded-lg hover:bg-blue-600 transition-colors">
                 Learn More
             </Link>
           </motion.div>

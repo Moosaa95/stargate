@@ -61,6 +61,10 @@ module.exports = {
       borderRadius: {
         '5xl': '40px',
       },
+      fontFamily: {
+        freeman: ['Freeman', 'monospace', 'sans-serif'],
+        merriweather: ['Merriweather', 'monospace', 'serif'],
+      }
     },
   },
   plugins: [

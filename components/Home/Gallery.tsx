@@ -13,7 +13,7 @@ interface GalleryCardsProps {
 const Gallery = ({galleries}:GalleryCardsProps) => {
   return (
     <section className="flex flex-col items-center justify-center px-10">
-        <h3 className="text-gray-90 text-2xl uppercase font-bold mt-32 text-center">Gallery</h3>
+        <h3 className="text-gray-90 text-2xl uppercase font-bold mt-32 text-center font-freeman">Gallery</h3>
         <div className="mt-12 overflow-x-hidden w-full relative">
             <div className="flex gap-8 md:w-full sm:w-[170%] xs:w-[340%] w-[40%]">
                 {galleries.map((gallery) => (

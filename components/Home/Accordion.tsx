@@ -17,7 +17,7 @@ const Accordion = ({id, question, answer}:AccordionProps) => {
   return (
     <div className="pb-8">
       <div onClick={() => handleClick(id)} className="cursor-pointer flex flex-row items-center gap-5">
-      <div className="sm:text-xl text-base font-[500] ">
+      <div className="sm:text-xl text-base  font-freeman ">
         {question}
       </div>
       <BsChevronDown className={`${id === activeIndex ? "rotate-180" : "rotate-0"} cursor-pointer transition-all duration-300`} size={20} />
@@ -36,7 +36,7 @@ const Accordion = ({id, question, answer}:AccordionProps) => {
             transition={{ duration: 0.3 }}
             className="overflow-hidden"
           >
-            <p className="text-sm md:text-base leading-7 text-gray-900">{answer}</p>
+            <p className="text-sm md:text-base leading-7 text-gray-900 font-merriweather">{answer}</p>
           </motion.div>
         )}
       </AnimatePresence>

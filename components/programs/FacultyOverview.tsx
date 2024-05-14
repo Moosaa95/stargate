@@ -7,7 +7,7 @@ interface ListItemProps {
 }
 
 const ListItem: React.FC<ListItemProps> = ({ item }) => (
-  <li className='flex m-4'>
+  <li className='flex m-4 font-merriweather'>
     <svg
               xmlns="http://www.w3.org/2000/svg"
               className="h-5 w-5 mr-2 text-green-500"
@@ -38,8 +38,8 @@ const Section: React.FC<SectionProps> = ({ title, text, listItems }) => (
     transition={{ duration: 0.5 }}
     className="mb-8"
   >
-    <h2 className="text-3xl font-bold mb-4 text-gray-90">{title}</h2>
-    <p className="text-lg text-gray-700">{text}</p>
+    <h2 className="text-3xl font-bold mb-4 text-gray-90 font-freeman">{title}</h2>
+    <p className="text-lg text-gray-700 font-merriweather">{text}</p>
     {listItems && (
       <ul className="list-disc list-inside text-left text-gray-700">
         {listItems.map((item, index) => (

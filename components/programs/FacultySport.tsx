@@ -1,7 +1,7 @@
 import Image from "next/image";
 
 const SectionHeader = ({ title }: { title: string }) => {
-  return <h2 className="text-3xl font-bold mb-4 text-gray-90">{title}</h2>;
+  return <h2 className="text-3xl font-bold mb-4 text-gray-90 font-freeman">{title}</h2>;
 };
 
 const SubSection = ({
@@ -19,16 +19,16 @@ const SubSection = ({
 }) => {
   return (
     <div>
-      <h3 className="text-xl font-semibold mb-2 text-gray-90">{title}</h3>
+      <h3 className="text-xl  mb-2 text-gray-90 font-freeman">{title}</h3>
       <div className="flex justify-center mb-4">
         <div className="w-74 h-74 relative rounded-lg overflow-hidden">
           <Image src={imageSrc} alt={altText} width={400} height={200} />
         </div>
       </div>
-      <p className="text-gray-700 mb-4 font-[400]">{description}</p>
+      <p className="text-gray-700 mb-4 font-[400] font-merriweather">{description}</p>
       <ul className="text-gray-700">
         {items.map((item, index) => (
-          <li key={index} className="mb-2 flex items-center">
+          <li key={index} className="mb-2 flex items-center font-merriweather">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="h-5 w-5 mr-2 text-green-500"

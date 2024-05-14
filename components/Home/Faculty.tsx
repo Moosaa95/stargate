@@ -17,12 +17,12 @@ interface ItemProps {
 const Faculty = ({ itemTitleOne, itemTitleTwo, itemDescriptionOne, itemDescriptionTwo, Title, imageOne, imageTwo, link }: ItemProps) => {
   return (
     <section className="container mx-auto py-24 px-6 min-h-screen">
-        <h2 className="text-2xl text-center font-bold uppercase mb-10 sm:text-4xl md:text-3xl text-gray-90">{Title}</h2>
+        <h2 className=" sm:text-xl text-center font-freeman font-bold uppercase mb-10 lg:text-4xl md:text-3xl text-gray-90">{Title}</h2>
         <div className="grid sm:grid-cols-2 place-items-center gap-10">
             <div className="space-y-6">
-                <h3 className="text-xl font-bold text-gray-90">{itemTitleOne}</h3>
-                <p className="text-md text-gray-600">{itemDescriptionOne}</p>
-                <Link href={link} className="inline-block bg-gray-90 text-white py-2 px-4 rounded hover:bg-blue-600 transition-colors">
+                <h3 className="lg:text-2xl sm:text-sm  text-gray-90 font-freeman">{itemTitleOne}</h3>
+                <p className="text-md text-gray-600 font-merriweather">{itemDescriptionOne}</p>
+                <Link href={link} className="inline-block font-freeman bg-gray-90 text-white py-2 px-4 rounded hover:bg-blue-600 transition-colors">
                         Learn more
                 </Link>
                 <motion.div whileHover={{ scale: 1.05 }} transition={{ type: "spring", stiffness: 300 }}>
@@ -30,9 +30,9 @@ const Faculty = ({ itemTitleOne, itemTitleTwo, itemDescriptionOne, itemDescripti
                 </motion.div>
             </div>
             <div className="space-y-6">
-                <h3 className="text-xl font-bold text-gray-90">{itemTitleTwo}</h3>
-                <p className="text-md text-gray-600">{itemDescriptionTwo}</p>
-                <Link href={link} className="inline-block bg-gray-90 text-white py-2 px-4 rounded hover:bg-blue-600 transition-colors">
+                <h3 className="lg:text-2xl sm:text-sm font-freeman  text-gray-90">{itemTitleTwo}</h3>
+                <p className="text-md font-merriweather text-gray-600">{itemDescriptionTwo}</p>
+                <Link href={link} className="inline-block font-freeman bg-gray-90 text-white py-2 px-4 rounded hover:bg-blue-600 transition-colors">
                         Learn more
                 </Link>
                 <motion.div whileHover={{ scale: 1.05 }} transition={{ type: "spring", stiffness: 300 }}>

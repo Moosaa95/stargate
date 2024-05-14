@@ -36,7 +36,7 @@ const Program: React.FC<ProgramCardsProps> = ({ programs }) => {
   return (
     <>
       <div className="container mx-auto px-4 max-w-screen-xl">
-        <h1 className="text-xl lg:text-3xl font-bold mb-8 text-center text-gray-90 uppercase">Our Programs at Stargate Academy</h1>
+        <h1 className="text-xl lg:text-3xl font-bold mb-8 text-center text-gray-90 uppercase font-freeman">Our Programs at Stargate Academy</h1>
         <div className="grid my-16 mx-auto grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           {programs.map((program, i) => (
             <motion.div
@@ -51,8 +51,8 @@ const Program: React.FC<ProgramCardsProps> = ({ programs }) => {
                   <Image src={program.imageUrl} width={400} height={300} alt={program.title} className="w-full block transition-transform duration-300 ease-in-out" />
                   <div className="absolute inset-0 bg-gradient-to-t from-gray-900 via-transparent to-transparent opacity-70 group-hover:opacity-60 transition-opacity duration-300 ease-in-out" />
                   <div className="absolute bottom-0 left-0 right-0 p-4">
-                    <p className="text-xl text-center font-bold  text-gray-100">{program.stage}</p>
-                    <p className="text-lg text-center font-semibold text-gray-100 mb-2">{program.title}</p>
+                    <p className="text-xl text-center font-bold  text-gray-100 font-freeman">{program.stage}</p>
+                    <p className="text-lg text-center font-semibold text-gray-100 mb-2 font-merriweather">{program.title}</p>
                   </div>
               </Link>
             </motion.div>

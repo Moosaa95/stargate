@@ -308,9 +308,9 @@ export default function Footer() {
         <div>
           <div className='mb-6 flex flex-row items-center gap-2'>
             <Image src="/assets/images/icon.jpg" alt="Logo Image" width={74} height={29} className="inline-bloock items-center"/>
-            <h3 className='font-bold  text-[1.2rem]'>Stargate Academy</h3>
+            <h3 className='font-bold  sm:text-xl lg:text-3xl md:text-2xl font-freeman'>Stargate Excellence Academy</h3>
           </div>
-          <p className="text-sm leading-7">
+          <p className="text-sm leading-7 font-merriweather">
           Welcome Stargate International Academy
 Where Stars are Born and Gates Open to the Future.
           </p>
