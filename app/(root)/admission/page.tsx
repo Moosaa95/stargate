@@ -1,5 +1,6 @@
 import AdmissionsForm from '@/components/forms/AdmissionForm';
 import { Metadata } from 'next';
+import Link from 'next/link';
 import React from 'react';
 
 export const metadata: Metadata = {
@@ -64,9 +65,12 @@ const Admissions: React.FC = () => {
           <p className="text-gray-700">
             We are excited to welcome you to the Stargate Academy family. For more information, to schedule a visit, or to begin the application process, please contact our Admissions Office. Let us embark on this educational journey together, paving the way for your child's successful future.
           </p>
+          <div className="flex justify-center mb-8">
+            <Link href="https://dossier.stargateexcellenceacademy.com.ng/student-admission/" className="bg-gray-90 text-white py-2  font-freeman px-6 rounded-full shadow-md hover:bg-blue-600 transition duration-300 ease-in-out">Apply Now</Link>
+          </div>
         </div>
       </div>
-      <AdmissionsForm />
+      {/* <AdmissionsForm /> */}
     </section>
   );
 };
