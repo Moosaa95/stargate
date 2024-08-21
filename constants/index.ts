@@ -9,6 +9,7 @@ export const NAV_LINKS = [
     // { href: '/blog', key: 'blog', label: 'Blog' },
     { href: '/about-us', key: 'about_us', label: 'About' },
     { href: '/contact-us', key: 'contact_us', label: 'Contact' },
+    { href: 'https://dossier.stargateexcellenceacademy.com.ng/', key: 'srms', label: 'SRMS' },
   ];
 
   export const faqs = [
